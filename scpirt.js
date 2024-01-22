@@ -19,6 +19,8 @@ car.pop = "volvo";
 // object 
 var person = { fname: "neil", lname: "patel", dob: "10-01-02", nation: "indian" };
 
+console.log(person.dob);
+
 //Operators
 
 console.log(a + b);
@@ -40,4 +42,8 @@ console.log(--b);
 
 function myFunction(a, b) {
     return a * b;
-  }
+}
+
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let length = text.length;
+
