@@ -1,0 +1,216 @@
+<!-- <!DOCTYPE CATALOG SYSTEM "movie.dtd">
+<CATALOG>
+    <CD>
+        <TITLE>Empire Burlesque</TITLE>
+        <ARTIST>Bob Dylan</ARTIST>
+        <COUNTRY>USA</COUNTRY>
+        <COMPANY>Columbia</COMPANY>
+        <PRICE>10.90</PRICE>
+        <YEAR>1985</YEAR>
+    </CD>
+    <CD>
+        <TITLE>Hide your heart</TITLE>
+        <ARTIST>Bonnie Tyler</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <COMPANY>CBS Records</COMPANY>
+        <PRICE>9.90</PRICE>
+        <YEAR>1988</YEAR>
+    </CD>
+    <CD>
+        <TITLE>Greatest Hits</TITLE>
+        <ARTIST>Dolly Parton</ARTIST>
+        <COUNTRY>USA</COUNTRY>
+        <COMPANY>RCA</COMPANY>
+        <PRICE>9.90</PRICE>
+        <YEAR>1982</YEAR>
+    </CD>
+    <CD>
+        <TITLE>Still got the blues</TITLE>
+        <ARTIST>Gary Moore</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <COMPANY>Virgin records</COMPANY>
+        <PRICE>10.20</PRICE>
+        <YEAR>1990</YEAR>
+    </CD>
+    <CD>
+        <TITLE>Eros</TITLE>
+        <ARTIST>Eros Ramazzotti</ARTIST>
+        <COUNTRY>EU</COUNTRY>
+        <COMPANY>BMG</COMPANY>
+        <PRICE>9.90</PRICE>
+        <YEAR>1997</YEAR>
+    </CD>
+    <CD>
+        <TITLE>One night only</TITLE>
+        <ARTIST>Bee Gees</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <COMPANY>Polydor</COMPANY>
+        <PRICE>10.90</PRICE>
+        <YEAR>1998</YEAR>
+    </CD>
+    <CD>
+        <TITLE>Sylvias Mother</TITLE>
+        <ARTIST>Dr.Hook</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <COMPANY>CBS</COMPANY>
+        <PRICE>8.10</PRICE>
+        <YEAR>1973</YEAR>
+    </CD>
+    <CD>
+        <TITLE>Maggie May</TITLE>
+        <ARTIST>Rod Stewart</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <COMPANY>Pickwick</COMPANY>
+        <PRICE>8.50</PRICE>
+        <YEAR>1990</YEAR>
+    </CD>
+    <CD>
+        <TITLE>Romanza</TITLE>
+        <ARTIST>Andrea Bocelli</ARTIST>
+        <COUNTRY>EU</COUNTRY>
+        <COMPANY>Polydor</COMPANY>
+        <PRICE>10.80</PRICE>
+        <YEAR>1996</YEAR>
+    </CD>
+    <CD>
+        <TITLE>When a man loves a woman</TITLE>
+        <ARTIST>Percy Sledge</ARTIST>
+        <COUNTRY>USA</COUNTRY>
+        <COMPANY>Atlantic</COMPANY>
+        <PRICE>8.70</PRICE>
+        <YEAR>1987</YEAR>
+    </CD>
+    <CD>
+        <TITLE>Black angel</TITLE>
+        <ARTIST>Savage Rose</ARTIST>
+        <COUNTRY>EU</COUNTRY>
+        <COMPANY>Mega</COMPANY>
+        <PRICE>10.90</PRICE>
+        <YEAR>1995</YEAR>
+    </CD>
+    <CD>
+        <TITLE>1999 Grammy Nominees</TITLE>
+        <ARTIST>Many</ARTIST>
+        <COUNTRY>USA</COUNTRY>
+        <COMPANY>Grammy</COMPANY>
+        <PRICE>10.20</PRICE>
+        <YEAR>1999</YEAR>
+    </CD>
+</CATALOG> -->
+
+
+<MOVIES>
+    <MOVIE>
+        <TITLE>Dilwale Dulhania Le Jayenge</TITLE>
+        <DIRECTED_BY>Aditya Chopra</DIRECTED_BY>
+        <STARRING>Shah Rukh Khan, Kajol, Amrish Puri</STARRING>
+        <STUDIO>Yash Raj Films</STUDIO>
+        <DISTRIBUTOR>Umesh Mehra</DISTRIBUTOR>
+        <COUNTRY>India</COUNTRY>
+        <GENRE>Romance, Comedy, Drama</GENRE>
+        <YEAR>1995
+        </YEAR>
+        <RUNTIME>186 minutes</RUNTIME>
+        <IMDB_RATING>8.5</IMDB_RATING>
+        <SYNOPSIS>
+            Raj, a charming yet aimless young man, travels to Europe to fulfill his father's wish
+            but falls in love with Simran, who is engaged to another. Their journey across Europe
+            explores themes of love, destiny, and family obligations.
+        </SYNOPSIS>
+
+    </MOVIE>
+
+    <MOVIE>
+        <TITLE>3 Idiots</TITLE>
+        <DIRECTED_BY>Rajkumar Hirani</DIRECTED_BY>
+        <STARRING>Aamir Khan, R. Madhavan, Sharman Joshi</STARRING>
+        <STUDIO>Aamir Khan Productions</STUDIO>
+        <DISTRIBUTOR>Reliance Big Pictures</DISTRIBUTOR>
+        <COUNTRY>India</COUNTRY>
+        <GENRE>Comedy, Drama, Satire</GENRE>
+        <YEAR>2009
+        </YEAR>
+        <RUNTIME>165 minutes</RUNTIME>
+        <IMDB_RATING>8.4</IMDB_RATING>
+        <SYNOPSIS>
+            Three engineering students with unconventional approaches to education challenge the
+            system and redefine success, while highlighting the pressure and expectations attached
+            to academic achievements.
+        </SYNOPSIS>
+    </MOVIE>
+
+    <MOVIE>
+        <TITLE>Dangal</TITLE>
+        <DIRECTED_BY>Nitesh Tiwari</DIRECTED_BY>
+        <STARRING>Aamir Khan, Fatima Sana Shaikh, Sanya Malhotra</STARRING>
+        <STUDIO>Aamir Khan Productions</STUDIO>
+        <DISTRIBUTOR>Walt Disney Pictures India</DISTRIBUTOR>
+        <COUNTRY>India</COUNTRY>
+        <GENRE>Biography, Drama, Sports</GENRE>
+        <YEAR>2016
+        </YEAR>
+        <RUNTIME>163 minutes</RUNTIME>
+        <IMDB_RATING>8.4</IMDB_RATING>
+        <SYNOPSIS>
+            Mahavir Singh Phogat, a former wrestler, trains his two daughters to overcome societal
+            barriers and become world-class wrestlers, challenging traditions and achieving
+            unprecedented success for women in sports.
+        </SYNOPSIS>
+    </MOVIE>
+
+
+    <MOVIE>
+        <TITLE>Mother India</TITLE>
+        <DIRECTED_BY>Mehboob Khan</DIRECTED_BY>
+        <STARRING>Nargis, Sunil Dutt, Rajendra Kumar</STARRING>
+        <STUDIO>Mehboob Productions</STUDIO>
+        <DISTRIBUTOR>Ajanta Films</DISTRIBUTOR>
+        <COUNTRY>India</COUNTRY>
+        <GENRE>Drama, Family</GENRE>
+        <YEAR>1957
+        </YEAR>
+        <RUNTIME>174 minutes</RUNTIME>
+        <IMDB_RATING>8.3</IMDB_RATING>
+        <SYNOPSIS>
+            A widowed peasant struggles to raise her sons and keep her land amidst poverty and
+            famine, showcasing the strength and resilience of women in rural India.
+        </SYNOPSIS>
+    </MOVIE>
+
+    <MOVIE>
+        <TITLE>Sholay</TITLE>
+        <DIRECTED_BY>Ramesh Sippy</DIRECTED_BY>
+        <STARRING>Dharmendra, Amitabh Bachchan, Sanjeev Kumar, Hema Malini</STARRING>
+        <STUDIO>Sippy Films</STUDIO>
+        <DISTRIBUTOR>Manmohan Desai Films</DISTRIBUTOR>
+        <COUNTRY>India</COUNTRY>
+        <GENRE>Action, Comedy, Drama</GENRE>
+        <YEAR>1975
+        </YEAR>
+        <RUNTIME>154 minutes</RUNTIME>
+        <IMDB_RATING>8.4</IMDB_RATING>
+        <SYNOPSIS>
+            Two outlaws are hired by a widowed village headman to fight against the ruthless dacoit
+            Gabbar Singh and bring back peace to the community.
+        </SYNOPSIS>
+    </MOVIE>
+
+    <MOVIE>
+        <TITLE>Lagaan</TITLE>
+        <DIRECTED_BY>Ashutosh Gowariker</DIRECTED_BY>
+        <STARRING>Aamir Khan, Gracy Singh, Rachel Shelley</STARRING>
+        <STUDIO>Aamir Khan Productions</STUDIO>
+        <DISTRIBUTOR>Sony Pictures Entertainment</DISTRIBUTOR>
+        <COUNTRY>India</COUNTRY>
+        <GENRE>Historical Drama, Sports</GENRE>
+        <YEAR>2001
+        </YEAR>
+        <RUNTIME>224 minutes</RUNTIME>
+        <IMDB_RATING>8.4</IMDB_RATING>
+        <SYNOPSIS>
+            In pre-colonial India, a village cricket team must win a match against a British officer
+            to avoid an exorbitant tax, uniting their community and rediscovering their spirit.
+        </SYNOPSIS>
+    </MOVIE>
+
+</MOVIES>
