@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="options.css">
 
 <body>
 
@@ -8,11 +9,11 @@
     <option value="1">Add Text Boxes</option>
     <option value="2">Remove Text Boxes</option>
   </select>
-
+  <hr>
   <div id="inputField" style="display:none;">
-    <label>Enter a number: <input type="number" id="numField" onchange="addOrRemoveTextBoxes()"></label>
+    <label>Enter a number: <input type="text" id="numField" onchange="addOrRemoveTextBoxes()"></label>
   </div>
-
+  <hr>
   <div id="textBoxes"></div>
   <script src="options.js"></script>
 </body>
