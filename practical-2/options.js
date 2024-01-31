@@ -16,16 +16,16 @@ function addOrRemoveTextBoxes() {
     var x = document.getElementById("mySelect").value;
 
     if (x === "1") {
-        for (var i = 1; i < num; i++) {
+        for (var i = 0; i < num; i++) {
             var input = document.createElement("input");
             input.type = "text";
-            input.value = i;
+            input.value = i + 1;
             container.appendChild(input);
             container.appendChild(document.createElement("br"));
             totalTextBoxes++;
         }
     } else if (x === "2") {
-        for (var i = 1; i < num; i++) {
+        for (var i = 0; i < num; i++) {
             if (container.hasChildNodes()) {
                 container.removeChild(container.lastChild); // remove the line break
                 container.removeChild(container.lastChild); // remove the input field
