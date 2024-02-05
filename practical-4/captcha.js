@@ -15,7 +15,7 @@ const submitButton = document.querySelector('.submit-button');
 submitButton.addEventListener('click', () => {
     const userAnswer = document.querySelector('.captcha-input').value;
     if (userAnswer === document.getElementById('captcha-answer').value) {
-        alert('CAPtcha verified!'); // Replace with actual submit logic
+        alert('CAPtcha verified!'); 
     } else {
         alert('Incorrect CAPTCHA. Please try again.');
         generateCaptcha();
