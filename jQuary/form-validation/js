@@ -1,0 +1,138 @@
+$(document).ready(function () {
+
+    $("#addDetailsForm").validate({
+        rules: {
+            name: {
+                required: true,
+                lettersOnly: true
+            },
+            age: {
+                required: true,
+                validAge: true
+            },
+            address: {
+                required: true
+            },
+            email: {
+                required: true,
+                email: true
+            },
+            phone: {
+                required: true,
+                digits: true,
+                maxlength: 10
+            },
+            password: {
+                required: true,
+                minlength: 6
+            },
+            confirmPassword: {
+                required: true,
+                equalTo: "#password"
+            },
+            select: {
+                required: true
+            },
+            file: {
+                required: true,
+                accept: "application/pdf"
+            },
+            radio: {
+                required: true
+            },
+            url: {
+                required: true,
+                url: true
+            },
+            date: {
+                required: true
+            },
+            checkbox: {
+                required: true
+            }
+        },
+        messages: {
+            name: {
+                required: "Please enter your name",
+                lettersOnly: "Please enter only letters for your name"
+            },
+            age: {
+                required: "Please enter your age",
+                validAge: "Please enter a valid age (numbers only, max 2 digits)"
+            },
+            address: {
+                required: "Please enter your address"
+            },
+            email: {
+                required: "Please enter your email",
+                email: "Please enter a valid email"
+            },
+            phone: {
+                required: "Please enter your phone number",
+                digits: "Please enter only numbers for your phone number",
+                maxlength: "Phone number should not exceed 10 digits"
+            },
+            password: {
+                required: "Please enter a password",
+                minlength: "Password must be at least 6 characters long"
+            },
+            confirmPassword: {
+                required: "Please confirm your password",
+                equalTo: "Passwords do not match"
+            },
+            select: {
+                required: "Please select an option"
+            },
+            file: {
+                required: "Please select a file",
+                accept: "Please select a PDF file"
+            },
+            radio: {
+                required: "Please select an option"
+            },
+            url: {
+                required: "Please enter a URL",
+                url: "Please enter a valid URL"
+            },
+            date: {
+                required: "Please enter a date"
+            },
+            checkbox: {
+                required: "Please agree to all conditions"
+            }
+        },
+        highlight: function (element) {
+            $(element).addClass('error');
+            $(element).addClass('is-invalid');
+        },
+        // Remove red border when error is fixed
+        unhighlight: function (element) {
+
+            $(element).removeClass('error');
+            $(element).removeClass('is-invalid');
+            $(element).addClass('is-valid');
+
+
+        },
+        // Place error messages in a div with the "text-danger" class
+        errorElement: 'div',
+        errorClass: 'text-danger'
+        // submitHandler: function (form) {
+        //     console.log("Form is valid. Performing submission...");
+        //     alert("form this submitted");
+
+
+
+        // }
+
+    });
+
+
+    $("#addDetailsForm").submit(function (event) {
+        if ($("#addDetailsForm").valid()) {
+            return true;
+        } else {
+            event.preventDefault();
+        }
+    });
+})

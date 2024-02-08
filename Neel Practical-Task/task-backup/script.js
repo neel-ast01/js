@@ -90,11 +90,6 @@ let editData = (index) => {
     document.getElementById("phone").value = editedData.phone;
 };
 
-// let validateAge = (input) => {
 
-//     input.value = input.value.replace(/\D/g, '');
-
-
-// };
 
 viewData();
