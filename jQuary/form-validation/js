@@ -4,11 +4,11 @@ $(document).ready(function () {
         rules: {
             name: {
                 required: true,
-                lettersOnly: true
+                // lettersOnly: true
             },
             age: {
                 required: true,
-                validAge: true
+                // validAge: true
             },
             address: {
                 required: true
@@ -54,11 +54,11 @@ $(document).ready(function () {
         messages: {
             name: {
                 required: "Please enter your name",
-                lettersOnly: "Please enter only letters for your name"
+                // lettersOnly: "Please enter only letters for your name"
             },
             age: {
                 required: "Please enter your age",
-                validAge: "Please enter a valid age (numbers only, max 2 digits)"
+                // validAge: "Please enter a valid age (numbers only, max 2 digits)"
             },
             address: {
                 required: "Please enter your address"
